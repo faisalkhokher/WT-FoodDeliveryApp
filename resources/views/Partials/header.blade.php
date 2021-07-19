@@ -46,7 +46,7 @@
         </ul>
         <div uk-dropdown="mode: click ;pos: bottom-right">
           <ul class="uk-nav uk-dropdown-nav">
-            <li><a href="{{route('Auth.login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
+            <li><a href="{{route('Auth.Login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
             <li><a href="{{route('Auth.Register')}}"><span uk-icon="user"></span> Sign Up</a></li>
           </ul>
         </div>

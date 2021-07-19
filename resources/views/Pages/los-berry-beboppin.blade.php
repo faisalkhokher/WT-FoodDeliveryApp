@@ -106,7 +106,7 @@
         </ul>
         <div uk-dropdown="mode: click ;pos: bottom-right">
         <ul class="uk-nav uk-dropdown-nav">
-            <li><a href="{{route('Auth.login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
+            <li><a href="{{route('Auth.Login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
             <li><a href="{{route('Auth.Register')}}"><span uk-icon="user"></span> Sign Up</a></li>
           </ul>
         </div>
@@ -123,7 +123,7 @@
   <div class="uk-container uk-container-xlarge">
     <h2 class="uk-heading-small">Los Berry Beboppin</h2> 
     <ul class="uk-breadcrumb">
-      <li class="uk-button uk-button-text"><a href="https://market.spidersx.com/Avocada">Home</a></li>
+      <li class="uk-button uk-button-text"><a href="{{route('layouts.frontend')}}">Home</a></li>
       <li><span>Los Berry Beboppin</span></li>
     </ul>          
   </div>
@@ -203,9 +203,9 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
             <h1 class="uk-heading-xsmall uk-margin-remove-top uk-heading-bullet uk-text-20">Share This Food :</h1>
           </div>
           <div>
-            <a href="http://www.facebook.com/sharer.php?u=https://market.spidersx.com/Avocada" class="uk-icon-button" uk-icon="facebook" target="_blank"></a>
-            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://market.spidersx.com/Avocada" class="uk-icon-button" uk-icon="linkedin"></a>
-            <a href="http://reddit.com/submit?url=https://market.spidersx.com/Avocada&amp;title=Share" class="uk-icon-button" uk-icon="reddit" target="_blank"></a>
+            <a href="http://www.facebook.com/" class="uk-icon-button" uk-icon="facebook" target="_blank"></a>
+            <a href="http://www.linkedin.com/" class="uk-icon-button" uk-icon="linkedin"></a>
+            <a href="http://reddit.com/" class="uk-icon-button" uk-icon="reddit" target="_blank"></a>
           </div>
         </div>
       </div>
@@ -216,12 +216,12 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
           <div>
       <div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
         <div class="uk-card-media-top uk-list-three">
-          <a href="finger-lickin-good.html">
+          <a href="{{route('Pages.Finger-lickin-good')}}">
             <img src="../../images/images/5ed3e19b2172a(2355).png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
           </a>
         </div>
         <div class="uk-list-two">
-          <h3 class="uk-card-title"><a href="finger-lickin-good.html" class="uk-link-heading">Finger Lickin&#039; Good</a>
+          <h3 class="uk-card-title"><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-link-heading">Finger Lickin&#039; Good</a>
              <form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
               <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
               <input type="number" name="Post_id" hidden="" value="126">
@@ -229,9 +229,9 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
               </form>
           </h3>
             <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-              <li><a href="finger-lickin-good.html" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €12.5 Usd</a></li>
+              <li><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €12.5 Usd</a></li>
                             <li><a class="uk-cat">Cupcake </a></li>
-                            <li class="uk-margin-top"><a href="finger-lickin-good.html" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
+                            <li class="uk-margin-top"><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
                 <span uk-icon="icon: triangle-right"></span></a></li>
               </ul>
             </div>
@@ -240,12 +240,12 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
              <div>
       <div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
         <div class="uk-card-media-top uk-list-three">
-          <a href="food-fight-and-mommy-lost.html">
+          <a href="{{route('Pages.Food-Fight-and-mommy-lost')}}">
             <img src="../../images/images/5ed3e13f7ea86(2293).png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
           </a>
         </div>
         <div class="uk-list-two">
-          <h3 class="uk-card-title"><a href="food-fight-and-mommy-lost.html" class="uk-link-heading">Food Fight And Mommy Lost</a>
+          <h3 class="uk-card-title"><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-link-heading">Food Fight And Mommy Lost</a>
              <form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
               <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
               <input type="number" name="Post_id" hidden="" value="125">
@@ -253,9 +253,9 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
               </form>
           </h3>
             <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-              <li><a href="food-fight-and-mommy-lost.html" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
+              <li><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
                             <li><a class="uk-cat">Cupcake </a></li>
-                            <li class="uk-margin-top"><a href="food-fight-and-mommy-lost.html" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
+                            <li class="uk-margin-top"><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
                 <span uk-icon="icon: triangle-right"></span></a></li>
               </ul>
             </div>
@@ -309,34 +309,34 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
 </div>
 <!-- ============================================================= Content ================================================= -->
 <!-- ===========================================  content =================================== -->
-<footer class="uk-section uk-dark" style="background-image: url('../../images/images/Footer.png');">
+<footer class="uk-section uk-dark" style="background-image: url('../images/images/Footer.png');">
   <div class="uk-container uk-container-xlarge  uk-text-500">
     <div class="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
-      <div>
-        <a href="https://market.spidersx.com/Avocada" class="uk-logo uk-display-block"><img alt="Avocada" src="../../images/images/logo.png"></a>
+    <div>
+        <a href="{{route('layouts.frontend')}}" class="uk-logo uk-display-block"><img alt="Avocada" src="../images/images/logo.png"></a>
         <p class="uk-padding-top">
-          <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+          <a href="https://twitter.com/login?lang=en/" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
           <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
-          <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
-          <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+          <a href="http://www.youtube.com/" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
+          <a href="https://www.instagram.com/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
         </p>
       </div>
       <div>
         <ul class="uk-list">
           <h3 class="uk-heading">Help</h3>
-          <li><a class="uk-button uk-button-text" href="../About.html">Time job</a></li>
-          <li><a class="uk-button uk-button-text" href="../Contact_us.html">Contact Us</a></li>
-          <li><a class="uk-button uk-button-text" href="../login.html">Sign In</a></li>
-          <li><a class="uk-button uk-button-text" href="../register.html">Sign Up</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Pages.About_us')}}">About Us</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Pages.Contact_us')}}">Contact Us</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Auth.Login')}}">Sign In</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Auth.Register')}}">Sign Up</a></li>
         </ul>
       </div>
       <div>
         <ul class="uk-list">
           <h3 class="uk-heading">Categories</h3>
-                    <li><a class="uk-button uk-button-text" href="../Cat/pizza.html">Pizza</a></li>
-                    <li><a class="uk-button uk-button-text" href="../Cat/noodles.html">Noodles</a></li>
-                    <li><a class="uk-button uk-button-text" href="../Cat/hamburger.html">Hamburger</a></li>
-                    <li><a class="uk-button uk-button-text" href="../Cat/juice.html">juice</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Pizza')}}">Pizza</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Noodles')}}">Noodles</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Hamburger')}}">Hamburger</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Juice')}}">juice</a></li>
                   </ul>
       </div>
       <div>
@@ -350,14 +350,14 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
     </div>
     <!-- ===========================================  content =================================== -->
     <div class="uk-text-small uk-text-muted uk-margin-medium-top">        
-      <div>All rights reserved 2020  Made by a <a class="uk-link-muted" target="_blank">Meteors</a>
-                <a  class="uk-link-muted" rel="alternate" hreflang="en" href="los-berry-beboppin.html">
+      <div>All rights reserved 2020  Made by a <a class="uk-link-muted" target="_blank">Weanio Technologies</a>
+                <a  class="uk-link-muted" rel="alternate" hreflang="en" href="{{route('Pages.About_us')}}">
           English
         </a>
-                <a  class="uk-link-muted" rel="alternate" hreflang="fr" href="../../fr/Foods/los-berry-beboppin.html">
+                <a  class="uk-link-muted" rel="alternate" hreflang="fr" href="{{route('Pages.About_us')}}">
           Français
         </a>
-                <a  class="uk-link-muted" rel="alternate" hreflang="ar" href="../../ar/Foods/los-berry-beboppin.html">
+                <a  class="uk-link-muted" rel="alternate" hreflang="ar" href="{{route('Pages.About_us')}}">
           العربية
         </a>
         .
@@ -370,41 +370,41 @@ anderen tierischen Produkten aus und sind somit 100% vegan.</p>
 <!-- ===========================================  content =================================== -->
 <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
   <div class="uk-offcanvas-bar">
-    <a class="uk-logo" href="https://market.spidersx.com/Avocada">Avocada</a>
+    <a class="uk-logo" href="{{route('layouts.frontend')}}">Avocada</a>
     <button class="uk-offcanvas-close" type="button" data-uk-close="ratio: 1.2"></button>
     <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-medium-top uk-text-center">
           <li>
-       <a href="https://market.spidersx.com/Avocada" target="_blank">
+       <a href="{{route('layouts.frontend')}}" target="_blank">
         Home
       </a>
     </li>
          <li>
-       <a href="../About.html" target="_self">
+       <a href="{{route('Pages.About_us')}}" target="_self">
         About Us
       </a>
     </li>
          <li>
-       <a href="../Contact_us.html" target="_self">
+       <a href="{{route('Pages.Contact_us')}}" target="_self">
         Contact Us
       </a>
     </li>
       </ul>
   <div class="uk-margin-medium-top">
-    <a class="uk-button uk-width-1-1 uk-button-primary" href="../register.html">Sign Up</a>
+    <a class="uk-button uk-width-1-1 uk-button-primary" href="{{route('Auth.Register')}}">Sign Up</a>
   </div>
   <div class="uk-margin-medium-top uk-text-center">
     <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
       <div>
-        <a href="https://www.facebook.com/" data-uk-icon="icon: twitter" class="uk-icon-link" target="_blank"></a>
+        <a href="https://twitter.com/login?lang=en/" data-uk-icon="icon: twitter" class="uk-icon-link" target="_blank"></a>
       </div>
       <div>
         <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link" target="_blank"></a>
       </div>
       <div>
-        <a href="https://www.facebook.com/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
+        <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
       </div>
       <div>
-        <a href="https://www.facebook.com/" data-uk-icon="icon: youtube" class="uk-icon-link" target="_blank"></a>
+        <a href="http://www.youtube.com//" data-uk-icon="icon: youtube" class="uk-icon-link" target="_blank"></a>
       </div>
     </div>
   </div>

@@ -79,7 +79,7 @@
             </a>
           </li>
                       <li>
-             <a href="{route('Pages.Contact_us')}}" target="_self">
+             <a href="{{route('Pages.Contact_us')}}" target="_self">
               Contact Us
             </a>
           </li>
@@ -107,7 +107,7 @@
         </ul>
         <div uk-dropdown="mode: click ;pos: bottom-right">
           <ul class="uk-nav uk-dropdown-nav">
-            <li><a href="{{route('Auth.login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
+            <li><a href="{{route('Auth.Login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
             <li><a href="{{route('Auth.Register')}}"><span uk-icon="user"></span> Sign Up</a></li>
           </ul>
         </div>
@@ -124,7 +124,7 @@
   <div class="uk-container uk-container-xlarge">
     <h2 class="uk-heading-small">Hamburger</h2> 
     <ul class="uk-breadcrumb">
-      <li class="uk-button uk-button-text"><a href="https://market.spidersx.com/Avocada">Home</a></li>
+      <li class="uk-button uk-button-text"><a href="{{route('layouts.frontend')}}">Home</a></li>
       <li><span>Hamburger</span></li>
     </ul>          
   </div>
@@ -136,12 +136,12 @@
 <div>
 <div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
 <div class="uk-card-media-top uk-list-three">
-<a href="../Foods/berry-bunch-beboppin.html">
+<a href="{{route('Pages.Berry-bunch-beboppin')}}">
   <img src="../../images/images/5ed3de5e60cb9food-6.png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
 </a>
 </div>
 <div class="uk-list-two">
-<h3 class="uk-card-title"><a href="../Foods/berry-bunch-beboppin.html" class="uk-link-heading">Berry Bunch Beboppin</a>
+<h3 class="uk-card-title"><a href="{{route('Pages.Berry-bunch-beboppin')}}" class="uk-link-heading">Berry Bunch Beboppin</a>
 <form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
 <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
 <input type="number" name="Post_id" hidden="" value="117">
@@ -149,9 +149,9 @@
 </form>
 </h3>
 <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-<li><a href="../Foods/berry-bunch-beboppin.html" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €12.5 Usd</a></li>
+<li><a href="{{route('Pages.Berry-bunch-beboppin')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €12.5 Usd</a></li>
 <li class="uk-margin-top"><a class="uk-cat">Hamburger </a></li>
-<li class="uk-margin-top"><a href="../Foods/berry-bunch-beboppin.html" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
+<li class="uk-margin-top"><a href="{{route('Pages.Berry-bunch-beboppin')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
 <span uk-icon="icon: triangle-right"></span></a></li>
 </ul>
 </div>
@@ -160,12 +160,12 @@
 <div>
 <div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
 <div class="uk-card-media-top uk-list-three">
-<a href="../Foods/breakfast-of-champions.html">
+<a href="{{route('Pages.Breakfast-of-champions')}}">
   <img src="../../images/images/5ed3deafb1a52food-7.png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
 </a>
 </div>
 <div class="uk-list-two">
-<h3 class="uk-card-title"><a href="../Foods/breakfast-of-champions.html" class="uk-link-heading">Breakfast Of Champions</a>
+<h3 class="uk-card-title"><a href="{{route('Pages.Breakfast-of-champions')}}" class="uk-link-heading">Breakfast Of Champions</a>
 <form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
 <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
 <input type="number" name="Post_id" hidden="" value="118">
@@ -173,9 +173,9 @@
 </form>
 </h3>
 <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-<li><a href="../Foods/breakfast-of-champions.html" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
+<li><a href="{{route('Pages.Breakfast-of-champions')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
 <li class="uk-margin-top"><a class="uk-cat">Hamburger </a></li>
-<li class="uk-margin-top"><a href="../Foods/breakfast-of-champions.html" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
+<li class="uk-margin-top"><a href="{{route('Pages.Breakfast-of-champions')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
 <span uk-icon="icon: triangle-right"></span></a></li>
 </ul>
 </div>
@@ -186,34 +186,34 @@
 </div>
 <!-- ============================================================= Content end   ============================================================= -->
 <!-- ===========================================  content =================================== -->
-<footer class="uk-section uk-dark" style="background-image: url('../../images/images/Footer.png');">
+<footer class="uk-section uk-dark" style="background-image: url('../images/images/Footer.png');">
   <div class="uk-container uk-container-xlarge  uk-text-500">
     <div class="uk-child-width-1-2@s uk-child-width-1-4@m" data-uk-grid>
-      <div>
-        <a href="https://market.spidersx.com/Avocada" class="uk-logo uk-display-block"><img alt="Avocada" src="../../images/images/logo.png"></a>
+    <div>
+        <a href="{{route('layouts.frontend')}}" class="uk-logo uk-display-block"><img alt="Avocada" src="../images/images/logo.png"></a>
         <p class="uk-padding-top">
-          <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+          <a href="https://twitter.com/login?lang=en/" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
           <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
-          <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
-          <a href="https://www.facebook.com/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+          <a href="http://www.youtube.com/" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
+          <a href="https://www.instagram.com/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
         </p>
       </div>
       <div>
         <ul class="uk-list">
           <h3 class="uk-heading">Help</h3>
-          <li><a class="uk-button uk-button-text" href="../About.html">Time job</a></li>
-          <li><a class="uk-button uk-button-text" href="../Contact_us.html">Contact Us</a></li>
-          <li><a class="uk-button uk-button-text" href="../login.html">Sign In</a></li>
-          <li><a class="uk-button uk-button-text" href="../register.html">Sign Up</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Pages.About_us')}}">About Us</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Pages.Contact_us')}}">Contact Us</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Auth.Login')}}">Sign In</a></li>
+          <li><a class="uk-button uk-button-text" href="{{route('Auth.Register')}}">Sign Up</a></li>
         </ul>
       </div>
       <div>
         <ul class="uk-list">
           <h3 class="uk-heading">Categories</h3>
-                    <li><a class="uk-button uk-button-text" href="pizza.html">Pizza</a></li>
-                    <li><a class="uk-button uk-button-text" href="noodles.html">Noodles</a></li>
-                    <li><a class="uk-button uk-button-text" href="hamburger.html">Hamburger</a></li>
-                    <li><a class="uk-button uk-button-text" href="juice.html">juice</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Pizza')}}">Pizza</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Noodles')}}">Noodles</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Hamburger')}}">Hamburger</a></li>
+                    <li><a class="uk-button uk-button-text" href="{{route('Pages.Juice')}}">juice</a></li>
                   </ul>
       </div>
       <div>
@@ -227,14 +227,14 @@
     </div>
     <!-- ===========================================  content =================================== -->
     <div class="uk-text-small uk-text-muted uk-margin-medium-top">        
-      <div>All rights reserved 2020  Made by a <a class="uk-link-muted" target="_blank">Meteors</a>
-                <a  class="uk-link-muted" rel="alternate" hreflang="en" href="hamburger.html">
+      <div>All rights reserved 2020  Made by a <a class="uk-link-muted" target="_blank">Weanio Technologies</a>
+                <a  class="uk-link-muted" rel="alternate" hreflang="en" href="{{route('Pages.About_us')}}">
           English
         </a>
-                <a  class="uk-link-muted" rel="alternate" hreflang="fr" href="../../fr/Cat/hamburger.html">
+                <a  class="uk-link-muted" rel="alternate" hreflang="fr" href="{{route('Pages.About_us')}}">
           Français
         </a>
-                <a  class="uk-link-muted" rel="alternate" hreflang="ar" href="../../ar/Cat/hamburger.html">
+                <a  class="uk-link-muted" rel="alternate" hreflang="ar" href="{{route('Pages.About_us')}}">
           العربية
         </a>
         .
@@ -247,41 +247,41 @@
 <!-- ===========================================  content =================================== -->
 <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
   <div class="uk-offcanvas-bar">
-    <a class="uk-logo" href="https://market.spidersx.com/Avocada">Avocada</a>
+    <a class="uk-logo" href="{{route('layouts.frontend')}}">Avocada</a>
     <button class="uk-offcanvas-close" type="button" data-uk-close="ratio: 1.2"></button>
     <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-medium-top uk-text-center">
           <li>
-       <a href="https://market.spidersx.com/Avocada" target="_blank">
+       <a href="{{route('layouts.frontend')}}" target="_blank">
         Home
       </a>
     </li>
          <li>
-       <a href="../About.html" target="_self">
+       <a href="{{route('Pages.About_us')}}" target="_self">
         About Us
       </a>
     </li>
          <li>
-       <a href="../Contact_us.html" target="_self">
+       <a href="{{route('Pages.Contact_us')}}" target="_self">
         Contact Us
       </a>
     </li>
       </ul>
   <div class="uk-margin-medium-top">
-    <a class="uk-button uk-width-1-1 uk-button-primary" href="../register.html">Sign Up</a>
+    <a class="uk-button uk-width-1-1 uk-button-primary" href="{{route('Auth.Register')}}">Sign Up</a>
   </div>
   <div class="uk-margin-medium-top uk-text-center">
     <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
       <div>
-        <a href="https://www.facebook.com/" data-uk-icon="icon: twitter" class="uk-icon-link" target="_blank"></a>
+        <a href="https://twitter.com/login?lang=en/" data-uk-icon="icon: twitter" class="uk-icon-link" target="_blank"></a>
       </div>
       <div>
         <a href="https://www.facebook.com/" data-uk-icon="icon: facebook" class="uk-icon-link" target="_blank"></a>
       </div>
       <div>
-        <a href="https://www.facebook.com/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
+        <a href="https://www.instagram.com/" data-uk-icon="icon: instagram" class="uk-icon-link" target="_blank"></a>
       </div>
       <div>
-        <a href="https://www.facebook.com/" data-uk-icon="icon: youtube" class="uk-icon-link" target="_blank"></a>
+        <a href="http://www.youtube.com//" data-uk-icon="icon: youtube" class="uk-icon-link" target="_blank"></a>
       </div>
     </div>
   </div>
@@ -289,6 +289,5 @@
 </div>
 <!-- ===========================================  content =================================== -->
 </body>
-
 <!-- Mirrored from market.spidersx.com/Avocada/en/Cat/hamburger by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jul 2021 08:51:05 GMT -->
 </html>

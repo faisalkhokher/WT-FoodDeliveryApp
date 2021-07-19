@@ -1,0 +1,11 @@
+<script src="{{ asset('js/core.js') }}"></script>
+  <script src="{{ asset('assests/vendors/Chart.min.js') }}"></script>
+  <script src="{{ asset('assests/vendors/jquery.flot.js') }}"></script>
+  <script src="{{asset('assests/vendors/jquery.flot.resize.js') }}"></script>
+  <script src="{{ asset('assests/vendors/bootstrap-datepicker.min.js') }}"></script>
+  <script src="{{ asset('assests/vendors/apexcharts.min.js') }}"></script>
+  <script src="{{ asset('assests/vendors/progressbar.min.js') }}"></script>
+  <script src="{{ asset('assests/vendors/feather.min.js') }}"></script>
+  <script src="{{ asset('assests/vendors/template.js')}}"></script>
+  <script src="{{ asset('assests/vendors/dashboard.js')}}"></script>
+  <script src="{{ asset('assests/vendors/datepicker.js')}}"></script>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr">
 
-<!-- Mirrored from market.spidersx.com/Avocada/en/Cat/cupcake by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jul 2021 08:51:07 GMT -->
+<!-- Mirrored from market.spidersx.com/Avocada/en/Foods/bushels-of-fun by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jul 2021 08:51:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
  <!-- ===================================== Meta site ================================================ -->
@@ -85,7 +85,7 @@
           </li>
                     <li><a type="button"> Upcoming Food<span class="uk-label uk-label-success uk-label-menu">Pro</span></a></li>
           <div uk-dropdown>
-            <ul class="uk-nav uk-dropdown-nav">
+          <ul class="uk-nav uk-dropdown-nav">
                             <li><a href="{{route('Pages.Pizza')}}">Pizza</a></li>
                             <li><a href="{{route('Pages.Noodles')}}">Noodles</a></li>
                             <li><a href="{{route('Pages.Hamburger')}}">Hamburger</a></li>
@@ -106,7 +106,7 @@
           </li>
         </ul>
         <div uk-dropdown="mode: click ;pos: bottom-right">
-          <ul class="uk-nav uk-dropdown-nav">
+        <ul class="uk-nav uk-dropdown-nav">
             <li><a href="{{route('Auth.Login')}}"><span uk-icon="sign-in"></span> Sign In</a></li>
             <li><a href="{{route('Auth.Register')}}"><span uk-icon="user"></span> Sign Up</a></li>
           </ul>
@@ -117,98 +117,198 @@
 </div>
 </nav>
 <!-- ===========================================  content =================================== -->
-<!-- ============================================================= Content Start ============================================================= -->
+<!-- ============================================================= Content Start =========================================== -->
 <span class="display-zero">en</span>
-<!-- ===========================================  content =================================== -->
+<!-- ============================================================= content ================================================= -->
 <div class="uk-section uk-dark uk-background-cover" style="background-image: url('../../images/images/breadcrumbs.jpg')">
   <div class="uk-container uk-container-xlarge">
-    <h2 class="uk-heading-small">Cupcake</h2> 
+    <h2 class="uk-heading-small">Bushels Of Fun</h2> 
     <ul class="uk-breadcrumb">
       <li class="uk-button uk-button-text"><a href="{{route('layouts.frontend')}}">Home</a></li>
-      <li><span>Cupcake</span></li>
+      <li><span>Bushels Of Fun</span></li>
     </ul>          
   </div>
 </div>
-<!-- ===========================================  content =================================== -->
+<!-- =============================================================  content ================================================= -->
 <div class="uk-section uk-section-muted">
-<div class="uk-container uk-container-xlarge">
-<div class="uk-child-width-1-4@m" uk-grid>
-<div>
-<div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
-<div class="uk-card-media-top uk-list-three">
-<a href="{{route('Pages.Cooking-up-a-storm')}}">
-  <img src="../../images/images/5ed3df4a44533food-9.png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
-</a>
+  <div class="uk-container uk-container-xlarge">
+    <div data-uk-grid>
+     <div class="uk-width-expand">
+            <img class="uk-border-10" data-src="images/images/5ed3df07c03fbfood-4.png" width="100%" alt="Pfarrgasse 20, 4020 Linz" uk-img>
+            
+      <div class="uk-card uk-card-default uk-card-body uk-border-10 uk-margin">
+        <div  uk-grid>
+          <div class="uk-width-1-1">
+            <article class="uk-article">
+              <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                <li><a class="uk-color-2"><span uk-icon="icon: link; ratio: 0.8"></span> Pfarrgasse 20, 4020 Linz</a></li>
+                <li><a class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.8"></span> 1:00 - 17:0016:00 - 18:30 . €12.5 Usd</a></li>
+                                <li><a class="uk-cat">juice </a></li>
+                              </ul>
+              <p>Wir haben mit Front Food ein neues Gastronomiekonzept im Bereich Fast
+ Food geschaffen. Wir wollen euch hungrige Menschen mit schnell 
+zubereitetem Essen versorgen das schmeckt, wobei wir die Grundgedanken 
+vom Fast Food völlig neu überdacht haben: In unserem Lokal findet ihr 
+ein Angebot an Speisen, wie Ihr es aus gewöhnlichen Fast Food 
+Restaurants gewohnt seid. Im Unterschied zu anderen Produkten kommen 
+alle von uns angebotenen Produkte jedoch völlig ohne Fleisch oder 
+anderen tierischen Produkten aus und sind somit 100% vegan.</p> 
+            </article>
+          </div>
+          <div class="uk-width-expand@m">
+            <div class="uk-article">
+              <hr>
+               
+              <h3><span class="uk-margin-small-right" uk-icon="commenting"></span> 0 Comments</h3>
+                            <a class="uk-button uk-button-small uk-button-primary uk-margin-right uk-border-rounded" href="#modal-example" uk-toggle>Reply Comment</a>
+              <!--   ================  Messagge ================  -->
+                            <!--   ================  Messagge ================  -->
+              <!--   ================  Messagge ================  -->
+                            <!--   ================  Messagge ================  -->
+                            <!--   ================  Messagge ================  -->
+              <ul class="uk-comment-list">
+               <!-- =============================== Comments Posts ======================================== -->
+                               <!-- =============================== Comments Posts ======================================== -->
+              </ul>
+              <!-- -------------------------- This is the modal --------------------------------- -->
+              <div id="modal-example" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body">
+                  <h2 class="uk-modal-title">Reply Comment</h2>
+                  <form  method="post" action="https://market.spidersx.com/Avocada/en/Comments">
+                    <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
+                    <input type="text" name="Post_id" hidden="" value="119">
+                    <div class="uk-margin">
+                      <textarea  type="text" class="uk-textarea " name="Comment" rows="5" 
+                      placeholder="Write Comment"></textarea>
+                       
+                    </div>
+                    <p class="uk-text-right">
+                      <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                      <button class="uk-button uk-button-primary" type="submit">Reply Comment</button>
+                    </p>
+                  </form>
+                </div>
+              </div>
+              <!-- -------------------------- This is the modal --------------------------------- -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-width-1-3@m">
+     <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+      <div  uk-grid>
+        <div class="uk-width-expand">
+         <div class="uk-grid-small uk-child-width-auto" uk-grid>
+          <div class="uk-margin-small-share">
+            <h1 class="uk-heading-xsmall uk-margin-remove-top uk-heading-bullet uk-text-20">Share This Food :</h1>
+          </div>
+          <div>
+            <a href="http://www.facebook.com/" class="uk-icon-button" uk-icon="facebook" target="_blank"></a>
+            <a href="http://www.linkedin.com/ class="uk-icon-button" uk-icon="linkedin"></a>
+            <a href="http://reddit.com/" class="uk-icon-button" uk-icon="reddit" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uk-margin-top">
+    <div  uk-grid>
+          <div>
+      <div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
+        <div class="uk-card-media-top uk-list-three">
+          <a href="{{route('Pages.Finger-lickin-good')}}">
+            <img src="../../images/images/5ed3e19b2172a(2355).png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
+          </a>
+        </div>
+        <div class="uk-list-two">
+          <h3 class="uk-card-title"><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-link-heading">Finger Lickin&#039; Good</a>
+             <form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
+              <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
+              <input type="number" name="Post_id" hidden="" value="126">
+              <button class="uk-float-right uk-color-heart" type="submit" uk-icon="icon: heart"></button>
+              </form>
+          </h3>
+            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+              <li><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €12.5 Usd</a></li>
+                            <li><a class="uk-cat">Cupcake </a></li>
+                            <li class="uk-margin-top"><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
+                <span uk-icon="icon: triangle-right"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+             <div>
+      <div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
+        <div class="uk-card-media-top uk-list-three">
+          <a href="{{route('Pages.Food-Fight-and-mommy-lost')}}">
+            <img src="../../images/images/5ed3e13f7ea86(2293).png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
+          </a>
+        </div>
+        <div class="uk-list-two">
+          <h3 class="uk-card-title"><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-link-heading">Food Fight And Mommy Lost</a>
+             <form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
+              <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
+              <input type="number" name="Post_id" hidden="" value="125">
+              <button class="uk-float-right uk-color-heart" type="submit" uk-icon="icon: heart"></button>
+              </form>
+          </h3>
+            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+              <li><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
+                            <li><a class="uk-cat">Cupcake </a></li>
+                            <li class="uk-margin-top"><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
+                <span uk-icon="icon: triangle-right"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+              </div>
+    </div>
+    <div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-margin-top">
+      <div  uk-grid>
+       <div class="uk-width-1-1">
+        <div class="uk-width-expand">
+          <h4 class="uk-comment-title"><a class="uk-link-reset">Delivered To You</a></h4>
+          <p class="uk-comment-meta uk-margin-remove"><a class="uk-color-list"></a></p>
+        </div> 
+      </div>
+      <!-- ================================ Messagge  ==================================== -->
+      <script>
+        function Order() {
+          var x = document.forms["Order"]["Content"].value;
+          if (x == null || x == "" || x.length > 50 ) {
+           window.location.href = 'https://market.spidersx.com/Avocada';
+           return false;
+         }
+       }
+     </script>
+     <!-- ================================ Messagge  ================================ -->
+     <div class="uk-width-expand uk-margin-top">
+       <!--   ================  Messagge ==============================================  -->
+             <!--   ===============================  Messagge  ==============================  -->
+            <!-- ===============================  Messagge  ==================================== -->
+      <form method="post" action="https://market.spidersx.com/Avocada/en/Order" name="Order" onsubmit="return Order()">
+        <input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
+        <div>
+          <div class="uk-inline uk-width">
+            <span class="uk-form-icon" uk-icon="icon:  user"></span>
+            <input class="uk-input " type="text" placeholder="Your Name" name="Name">
+                      </div>
+          <div class="uk-inline uk-width uk-margin-top">
+            <textarea name="Content" class="uk-textarea " rows="5" placeholder="Order with Your Phone And Location All Order come within a custom time period according to your address"></textarea>
+                      </div>
+        </div>
+        <button type="submit" class="uk-button uk-button-secondary uk-border-pill uk-margin-top uk-button-small">Delivered 
+          <span uk-icon="arrow-right"></span></button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="uk-list-two">
-<h3 class="uk-card-title"><a href="{{route('Pages.Cooking-up-a-storm')}}" class="uk-link-heading">Cooking Up A Storm</a>
-<form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
-<input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
-<input type="number" name="Post_id" hidden="" value="120">
-<button class="uk-float-right uk-color-heart" type="submit" uk-icon="icon: heart"></button>
-</form>
-</h3>
-<ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-<li><a href="{{route('Pages.Cooking-up-a-storm')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
-<li class="uk-margin-top"><a class="uk-cat">Cupcake </a></li>
-<li class="uk-margin-top"><a href="{{route('Pages.Cooking-up-a-storm')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
-<span uk-icon="icon: triangle-right"></span></a></li>
-</ul>
 </div>
 </div>
 </div>
-<div>
-<div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
-<div class="uk-card-media-top uk-list-three">
-<a href="{{route('Pages.Food-Fight-and-mommy-lost')}}">
-  <img src="../../images/images/5ed3e13f7ea86(2293).png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
-</a>
-</div>
-<div class="uk-list-two">
-<h3 class="uk-card-title"><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-link-heading">Food Fight And Mommy Lost</a>
-<form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
-<input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
-<input type="number" name="Post_id" hidden="" value="125">
-<button class="uk-float-right uk-color-heart" type="submit" uk-icon="icon: heart"></button>
-</form>
-</h3>
-<ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-<li><a href="../Foods/food-fight-and-mommy-lost.html" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €19.5 Usd</a></li>
-<li class="uk-margin-top"><a class="uk-cat">Cupcake </a></li>
-<li class="uk-margin-top"><a href="{{route('Pages.Food-Fight-and-mommy-lost')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
-<span uk-icon="icon: triangle-right"></span></a></li>
-</ul>
-</div>
-</div>
-</div>
-<div>
-<div class="uk-card uk-border-10 toggle uk-animation-toggle" tabindex="0">
-<div class="uk-card-media-top uk-list-three">
-<a href="{{route('Pages.Finger-lickin-good')}}">
-  <img src="../../images/images/5ed3e19b2172a(2355).png" alt="Pfarrgasse 20, 4020 Linz" class="uk-card-border">
-</a>
-</div>
-<div class="uk-list-two">
-<h3 class="uk-card-title"><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-link-heading">Finger Lickin&#039; Good</a>
-<form  method="post" action="https://market.spidersx.com/Avocada/en/Favourites" class="uk-display-flex">
-<input type="hidden" name="_token" value="gfwJJIzXpp0Es4r8wpFshbD3UB7ulFwMzGRUvcbo">
-<input type="number" name="Post_id" hidden="" value="126">
-<button class="uk-float-right uk-color-heart" type="submit" uk-icon="icon: heart"></button>
-</form>
-</h3>
-<ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-<li><a href=".{{route('Pages.Finger-lickin-good')}}" class="uk-color-2"><span uk-icon="icon: clock; ratio: 0.7"></span> 11:00 - 14:0016:00 - 18:30 . €12.5 Usd</a></li>
-<li class="uk-margin-top"><a class="uk-cat">Cupcake </a></li>
-<li class="uk-margin-top"><a href="{{route('Pages.Finger-lickin-good')}}" class="uk-color-2 uk-animation-slide-left-small uk-text-15">Delivered Now 
-<span uk-icon="icon: triangle-right"></span></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- ============================================================= Content end   ============================================================= -->
+<!-- ============================================================= Content ================================================= -->
 <!-- ===========================================  content =================================== -->
 <footer class="uk-section uk-dark" style="background-image: url('../images/images/Footer.png');">
   <div class="uk-container uk-container-xlarge  uk-text-500">
@@ -313,5 +413,6 @@
 </div>
 <!-- ===========================================  content =================================== -->
 </body>
-<!-- Mirrored from market.spidersx.com/Avocada/en/Cat/cupcake by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jul 2021 08:51:08 GMT -->
+
+<!-- Mirrored from market.spidersx.com/Avocada/en/Foods/bushels-of-fun by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jul 2021 08:51:35 GMT -->
 </html>
